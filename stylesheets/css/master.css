@@ -30,7 +30,7 @@ header {
 }
 
 .contents {
-  background: url("./images/park.jpg") blue;
+  background: url("../../images/park.jpg");
 }
 
 .logo {
