@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+}
+
+header {
+  background-color: rgb(128, 195, 215);
+}
+
+.dog-head {
+  display: flex;
+  align-content: center;
+  height: 4%;
+  width: 4%;
+}
+
+.navigation {
+  display: flex;
+  align-content: center;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.contents {
+  background: url("./images/park.jpg") blue;
+}
+
+.logo {
+  font-size: 12pt;
+}
+
+.dog-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.dog-story {
+  display: flex;
+}
+
+.dog {
+  border-radius: 50%;
+  border: 4px solid rgb(114, 176, 194);
+  height: 40%;
+  width: 40%;
+}
+
+.dogs {
+  border-radius: 50%;
+  border: 2px solid rgb(114, 176, 194);
+  height: 150px;
+  width: 150px;
+}
+
+.dog-button {
+  border: 2px solid rgb(114, 176, 194);
+  padding: 2px;
+  color: rgb(114, 176, 194);
+}
+
+footer {
+  background-color: rgb(114, 176, 194);
+}
